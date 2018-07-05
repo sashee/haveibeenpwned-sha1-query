@@ -12,7 +12,7 @@ Check a password securely in the [Pwned Passwords database](https://haveibeenpwn
 * Go to the **Network** tab
 * Check the **Offline** checkbox
 * Go to the **Console** tab
-* Paste this code and press *enter*:
+* Paste this code and press *enter*: (code from [here](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest))
 
 ```
 async function sha1(message) {
